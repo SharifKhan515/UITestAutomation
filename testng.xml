@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests">
+    <listeners>
+        <listener class-name="Academy.Listeners"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="Home page test">
+        <classes>
+            <class name="Academy.HomePageTest">
+                <methods>
+                    <include name="basePageNavigation"/>
+                    <include name="loginButtonCheck"/>
+                    <include name="titleCheck"/>
+                    <include name="navbarCheck"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Login page test">
+        <classes>
+            <class name="Academy.LoginPageTest">
+                <methods>
+                    <include name="login"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,8 @@
+21:25:58.607 [TestNG] INFO  Academy.HomePageTest - Navigation bar initialized
+21:25:59.253 [TestNG] INFO  Academy.LoginPageTest - driver closed
+21:27:58.028 [TestNG] INFO  Academy.LoginPageTest - driver initialize
+21:28:03.834 [TestNG] INFO  Academy.LoginPageTest - visited homepage
+21:28:12.179 [TestNG] INFO  Academy.LoginPageTest - driver closed
+21:29:20.652 [TestNG] INFO  Academy.LoginPageTest - driver initialize
+21:29:28.773 [TestNG] INFO  Academy.LoginPageTest - visited homepage
+21:29:37.032 [TestNG] INFO  Academy.LoginPageTest - driver closed

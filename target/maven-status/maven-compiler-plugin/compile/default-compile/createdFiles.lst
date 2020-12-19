@@ -1,5 +1,6 @@
 ExcellReader\ExcellReader.class
 Academy\Listeners.class
+ExcellReader\DBConnection.class
 resources\ExtentReporterNg.class
 resources\Base.class
 pageObject\HomePage.class
